@@ -1,0 +1,95 @@
+body {
+  background-color: #1F2833;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+#container {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navigation {
+  background-color: #45A29E; 
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px;
+  font-size: large;
+  list-style-type: none;
+}
+
+.menu > li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px dashed #0B0C10;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  min-height: 38px;
+  line-height: 200%;
+}
+
+.square {
+  width: 100%;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mail {
+  color:#0B0C10;
+  font-size: 36px;
+  margin: left;
+  width: 35%;
+  background-color: #1F2833;
+  float: left;
+  text-align: center;
+}
+
+.mail:hover .text-mail {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.text-mail {
+  position: relative;
+  bottom: 30px;
+  left: 0px;
+}
+
+.text-phone {
+  position: relative;
+  bottom: 30px;
+  left: 0px;
+}
+
+.phone {
+  color:#0B0C10;
+  font-size: 36px;
+  margin: right;
+  width: 35%;
+  background-color: #1F2833;
+  float: right;
+  text-align: center;
+}
+
+.phone:hover .text-phone{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.description {
+  text-align: center;
+  width: 700;
+  color: #66FCF1;
+  font-size: 40px;
+}
+

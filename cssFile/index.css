@@ -1,0 +1,179 @@
+body {
+  background-color: #1F2833;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+#navigation {
+  background-color: #45A29E;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px;
+  font-size: large;
+  list-style-type: none;
+}
+
+h1.logo {
+  text-align: center;
+  color: #66FCF1;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.mainDescription {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 40px;
+  color: #C5C6C7;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  min-height: 38px;
+  line-height: 200%;
+}
+
+.cpy {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: right;
+  background-color: #1F2833;
+  padding: 20px;
+  color: #66FCF1;
+}
+
+.socials {
+  background-color: #1F2833;
+  color: gray;
+  width: 500px;
+}
+
+.description {
+  text-align: center;
+  width: 700;
+  color: #66FCF1;
+  font-size: 40px;
+}
+
+#about-me {
+  background-color: #2E3944;
+}
+
+.my-section {
+  text-align: justify;
+  font-size: 24px;
+  color:#C5C6C7;
+  padding: 15px;
+}
+
+#hobby-section {
+  background-color: #1F2833;
+}
+
+.hobby {
+  text-align: justify;
+  font-size: 24px;
+  color:#C5C6C7;
+  padding: 15px;
+}
+
+.school-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#contact-section {
+  background-color: #2E3944;
+}
+
+.contact {
+  text-align: justify;
+  font-size: 24px;
+  color:#C5C6C7;
+  padding: 15px;
+}
+
+.phone-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.phone-img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.gmail-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.gmail-img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.intro-photo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  filter: blur(5px);
+  padding: 5px;
+}
+
+.img-intro:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  filter: blur(0);
+}
+
+.github {
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.github:hover {
+  background-color: #2E3944;
+}
+
+a:link {
+  color:#0B0C10;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#0B0C10;
+  text-decoration: none;
+}
+
+.scrollUp {
+  width: 64px;
+  height: 64px;
+  text-decoration: none;
+  background: url("up.png") no-repeat 0px 0px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}

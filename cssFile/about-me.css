@@ -1,0 +1,65 @@
+body {
+  background-color: #1F2833;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+#navigation {
+  background-color: #45A29E;
+  text-align: center;
+}
+
+.menu > li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px dashed #0B0C10;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px;
+  font-size: large;
+  list-style-type: none;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  min-height: 38px;
+  line-height: 200%;
+}
+
+h1.about-me {
+  text-align: center;
+  color: #66FCF1;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.school {
+  margin-right: auto;
+  margin-left: auto;
+  color: whitesmoke;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.photo {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
+}
+
+.intro-photo {
+  
+  width: 100%;
+}
